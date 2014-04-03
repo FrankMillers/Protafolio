@@ -1,0 +1,345 @@
+@font-face {
+	font-family: 'CodeBoldRegular';
+	src: url('../fonts/code_bold-webfont.eot');
+	src: url('../fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/code_bold-webfont.woff') format('woff'), url('../fonts/code_bold-webfont.ttf') format('truetype'), url('../fonts/code_bold-webfont.svg#CodeBoldRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CodeLightRegular';
+	src: url('../fonts/code_light-webfont.eot');
+	src: url('../fonts/code_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/code_light-webfont.woff') format('woff'), url('../fonts/code_light-webfont.ttf') format('truetype'), url('../fonts/code_light-webfont.svg#CodeLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,input,textarea {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	color: #444444;
+}
+
+body {
+	background: #22533d url(../images/bg.png);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+address {
+	font-style: normal;
+}
+
+h1,h2,h3 {
+	color: #333333;
+	font-size: 64px;
+	font-weight: normal;
+	font-family: "CodeBoldRegular", arial, sans-serif;
+}
+
+h2 {
+	font-size: 42px;
+	text-transform: uppercase;
+	color: white;
+	font-family: "CodeBoldRegular", arial, sans-serif;
+	font-weight: normal;
+}
+
+.pic img {
+	border: 18px solid #222222;
+
+	-webkit-transition: border-color .5s;
+	-moz-transition: border-color .5s;
+	-o-transition: border-color .5s;
+	-ms-transition: border-color .5s;
+	transition: border-color .5s;
+	float: left;
+	margin-right: 15px;
+}
+
+.pic img:hover {
+	border-color: #2a2a2a;
+}
+
+header {
+	background:#cdcccd url(../images/headerbg.png);
+	background: url(../images/band.png) right top no-repeat, #cdcccd url(../images/headerbg.png);
+	padding: 53px 0;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+
+header hgroup {
+
+	margin-top: 228px;
+}
+
+header h1 {
+	font-size: 30px;
+}
+
+header h1 {
+	font-family: "CodeLightRegular", arial, sans-serif;
+	line-height: 45px;
+}
+
+header strong {
+	font-family: "CodeBoldRegular", arial, sans-serif;
+	font-weight: normal;
+}
+
+header h2 {
+	color: #333333;
+	line-height: 42px;
+	font-size: 64px;
+}
+
+header h2 strong {
+	color: #1e6d49;
+}
+
+header h3 {
+	font-family: "CodeLightRegular", arial, sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.main h2 {
+	background: #222222;
+	display: inline-block;
+	padding: 15px 30px;
+	margin-top: 50px;
+}
+
+.bloque {
+	overflow: hidden;
+}
+
+.ihave {
+	text-align: right;
+	margin-bottom: 60px;
+}
+
+.tecnologies li {
+	list-style: none;
+	background: #04341f;
+	float: left;
+	padding: 10px;
+	border-right: 1px solid #032d1b;
+	border-left: 1px solid #27513f;
+	width: 115px;
+	text-align: center;
+
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+.tecnologies li:hover {
+	background: #1b4831;
+}
+
+.tecnologies li:first-child {
+	border-left: 0;
+}
+
+.tecnologies li:last-child {
+	border-right: 0;
+}
+
+.subtecnologies {
+	color: #444444;
+}
+
+.subtecnologies li {
+	list-style: none;
+}
+
+.subtecnologies > ul > li {
+	background: #bbbbbb;
+	float: left;
+	text-align: center;
+	width: 135px;
+	border-right: 1px solid #a1a1a1;
+	border-left: 1px solid #c5c5c5;
+
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+.subtecnologies > ul > li:hover {
+	background: #c4c4c6;
+}
+
+.subtecnologies > ul > li:first-child {
+	border-left: 0;
+}
+
+.subtecnologies > ul > li:last-child {
+	border-right: 0;
+}
+
+.subtecnologies li li {
+	padding: 7px 0;
+}
+
+.subtecnologies li ul {
+	margin: 10px 0;
+}
+
+.screenshots {
+	border: 18px solid #04341f;
+	background: #04341f;
+	float: right;
+	position: relative;
+	width: 699px;
+	height: 329px;
+}
+
+.screenshots img {
+	display: block;
+}
+
+.screenshots a {
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.links {
+	float: right;
+}
+
+.links a {
+	background: #bbbbbb;
+	font-size: 17px;
+	color: #444444;
+	padding: 15px 20px;
+	display: inline-block;
+	border-bottom: 1px solid #a6a6a6;
+	border-top: 1px solid #c2c2c2;
+
+	-webkit-transition: background-color .5s, color .5s;
+	-moz-transition: background-color .5s, color .5s;
+	-o-transition: background-color .5s, color .5s;
+	-ms-transition: background-color .5s, color .5s;
+	transition: background-color .5s, color .5s;
+}
+
+.links a:hover,.links .actual a {
+	background: #04341f;
+	color: white;
+	border-color: #04341f;
+}
+
+.links li {
+	list-style: none;
+}
+
+/*
+.links ul     {
+	
+margin-top:    15px;
+	
+}
+
+ */
+footer {
+	padding: 60px 0 70px;
+	background: #222222;
+	font-size: 16px;
+	color: white;
+}
+
+footer h2 {
+	margin-bottom: 21px;
+}
+
+.col {
+	float: left;
+	width: 50%;
+}
+
+.social {
+	text-align: right;
+}
+
+.social a {
+	padding: 10px 10px 8px;
+	background: #343434;
+	margin: 2px 1px;
+	display: inline-block;
+
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+.social a:hover {
+	background: #464646;
+}
+
+.contact p {
+	padding: 12px 15px;
+	background: #343434;
+	margin: 2px 0;
+	float: left;
+	clear: left;
+
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	-o-transition: background-color .5s;
+	-ms-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+.contact p:hover {
+	background: #464646;
+}
+
+a[href^="tel:"] {
+	background: url(../images/android-icon.gif) left center no-repeat;
+	padding: 2px 0;
+	padding-left: 30px;
+}
+
+
+img {
+	border:0;
+}
+
+.socialbuttons {
+	position: absolute;
+	right:0;
+	top:20px;
+}
+
+.fb-like {
+	width:135px;
+}
+
+.socialbutton {
+	float:left;
+	position: relative;
+}
